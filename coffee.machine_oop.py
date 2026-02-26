@@ -20,3 +20,4 @@ while is_on:
         if (not order is None) and (coffee_maker.is_resource_sufficient(order)):
             if money_machine.make_payment(order.cost):
                 coffee_maker.make_coffee(order)
+# This is wrote for understand the object oriented program.
